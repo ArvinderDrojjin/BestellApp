@@ -1,0 +1,16 @@
+.restaurant_rating {
+    color: rgb(216, 141, 2);
+}
+
+.content_restaurant_navbar a {
+    text-decoration: none;
+    color: grey;
+}
+
+.content_restaurant_navbar a::before {
+    content: " →";
+    font-size: 16px;
+    color: crimson; 
+}
+
+

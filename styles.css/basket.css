@@ -1,0 +1,29 @@
+.basket_container {
+    width: 300px;
+    flex-grow: 1;
+}
+
+.basket {
+    display: block;
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+.basket_item button {
+    cursor: pointer;
+    font-size: large;
+    color: rgb(255, 166, 0);
+}
+
+.remove_btn {
+    margin-left: 20px;
+}
+
+.basket_total {
+    margin-top: 20px;
+    font-size: 18px;
+    color: green;
+}
+

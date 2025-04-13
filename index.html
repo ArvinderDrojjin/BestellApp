@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Paradise</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css/standard.css">
+    <link rel="stylesheet" href="styles.css/assets.css">
+    <link rel="stylesheet" href="styles.css/basket.css">
+    <link rel="stylesheet" href="styles.css/fonts.css">
+    <link rel="stylesheet" href="styles.css/overlay.css">
+</head>
+
+<body>
+    <section class="header">
+        <h2 class="">Pizza Paradise</h2>
+    </section>
+
+    <section class="content_total">
+        <div class="content_restaurant">
+            <div class="content_restaurant_head">
+                <img src="assets/img/ai-generated-8714515_1280.jpg" alt="Pizza Pic">
+            </div>
+            <div class="content_restaurant_titelbox">
+                <h3>Pizzas</h3>
+                <div class="restaurant_rating"> Bewertung (4,5 / 5 *)</div>
+            </div>
+            <div class="content_restaurant_navbar">
+                <a href="#mainMenu">Hauptgerichte</a>
+                <a href="#extras">Beilagen</a>
+            </div>
+            <div id="mainMenu" class="content_restaurant_mainMenu">
+                <img src="assets/img/ai-generated-8673813_1280.png" alt="Pizza Pic">
+                <h3>Hauptgerichte</h3>
+            </div>
+            <div id="content_restaurant_pizza" class="content_restaurant_pizza">
+
+            </div>
+            <div id="extras" class="content_restaurant_extras">
+                <img src="assets/img/sauce-4171459_1280.jpg" alt="Sauce Pic">
+                <h3>Beilagen</h3>
+            </div>
+        </div>
+        <div class="basket_container">
+            <div id="basket" class="basket">
+                <h3>Warenkorb</h3>
+                <p>Warenkorb ist leer</p>
+            </div>
+        </div>
+        <div class="basket_responsive">
+
+           
+            <div id="basketOverlay">
+                <div class="basket_overlay_content">
+                    <button class="basket_toggle_button" onclick="toggleBasketOverlay()">Warenkorb schließen</button>
+                    <div id="basketOverlayContent"></div>
+                </div>               
+            </div>
+
+            <button class="basket_toggle_button" onclick="toggleBasketOverlay()">Warenkorb</button>
+
+        </div>
+    </section>
+
+    <section class="footer">
+
+    </section>
+
+    <script src="scripts/db.js"></script>
+    <script src="script.js"></script>
+    <script src="scripts/template.js"></script>
+</body>
+
+</html>

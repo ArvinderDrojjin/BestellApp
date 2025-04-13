@@ -1,0 +1,31 @@
+.content_restaurant_head img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.content_restaurant_mainMenu img {
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+.content_restaurant_extras img {
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+.cart-icon-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.add_to_cart_btn {
+    cursor: pointer;
+    background-color: rgb(255, 206, 116);
+    font-size: 20px;
+}

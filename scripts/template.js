@@ -2,7 +2,7 @@ function getNoteTemplate(index, myDishes) {
     return `
             <div class="pizza_item">
                 <div class="cart-icon-container">
-                    <button class="add_to_cart_btn" onclick="addToBasket(${index})">&#128722</button>
+                    <button class="add_to_cart_btn" onclick="addToBasket(${index}, 'dish')">&#128722</button>
                 </div>
                 <p><strong>${myDishes[index].name}</strong></p>
                 <p>${myDishes[index].price} €</p>
@@ -12,7 +12,19 @@ function getNoteTemplate(index, myDishes) {
     `;
 }
 
-render(myDishes);
+function getExtrasTemplate(index, myExtras) {
+    return `
+            <div class="extras_item">
+                <div class="cart-icon-container">
+                    <button class="add_to_cart_btn" onclick="addToBasket(${index}, 'extra')">&#128722</button>
+                </div>
+                <p><strong>${myExtras[index].name}</strong></p>
+                <p>${myExtras[index].price} €</p>
+            </div>
+
+    `;
+}
+
 
 function getBasketItemTemplate(dish, i) {
     return `
@@ -29,11 +41,13 @@ function getBasketItemTemplate(dish, i) {
     `;
 }
 
+
 function getBasketTotalTemplate(total) {
     return `
         <div class="basket_total">
             <hr>
             <p><strong>Gesamtsumme: ${total.toFixed(2)} €</strong></p>
+            <button class="orderButton">Bestellen</button>
         </div>
     `;
 }

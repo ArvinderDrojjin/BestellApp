@@ -37,6 +37,13 @@ h2 {
     margin-top: 10px;
 }
 
+@media(max-width: 440px) {
+    .content_restaurant_navbar {
+        font-size: 10px;
+        gap: 8px;
+    }
+}
+
 .content_restaurant_mainMenu h3 {
     padding-left: 16px;
 }

@@ -29,21 +29,28 @@
                 <div class="restaurant_rating"> Bewertung (4,5 / 5 *)</div>
             </div>
             <div class="content_restaurant_navbar">
-                <a href="#mainMenu">Hauptgerichte</a>
+                <a href="#content_restaurant_pizza">Hauptgerichte</a>
                 <a href="#extras">Beilagen</a>
+                <a href="#drinks">Getränke</a>
                 <a href="#footerContent">Kontakt</a>
             </div>
             <div class="content_restaurant_mainMenu">
-                <img src="assets/img/ai-generated-8673813_1280.png" alt="Pizza Pic">
+                <img class="imgCss" src="assets/img/ai-generated-8673813_1280.png" alt="Pizza Pic">
                 <h3>Hauptgerichte</h3>
             </div>
             <div id="content_restaurant_pizza" class="content_restaurant_pizza"></div>
 
             <div class="content_restaurant_extras">
-                <img src="assets/img/sauce-4171459_1280.jpg" alt="Sauce Pic">
+                <img class="imgCss" src="assets/img/sauce-4171459_1280.jpg" alt="Sauce Pic">
                 <h3>Beilagen</h3>
             </div>
             <div id="extras" class="extras"></div>
+
+            <div class="content_restaurant_drinks">
+                <img class="imgCss" src="assets/img/coke-5057608_1280.jpg" alt="Sauce Pic">
+                <h3>Getränke</h3>
+            </div>
+            <div id="drinks" class="drinks"></div>
         </div>
 
         <div class="basket_container">
@@ -62,7 +69,7 @@
             </div>
 
             <button class="basket_toggle_button" onclick="toggleBasketOverlay()">&#128722</button>
-
+            
         </div>
     </section>
 
@@ -90,6 +97,7 @@
                     alt="Instagram"></a>
         </div>
     </section>
+    
 
     <script src="scripts/db.js"></script>
     <script src="script.js"></script>

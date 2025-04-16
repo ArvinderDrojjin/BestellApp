@@ -4,14 +4,7 @@
     object-fit: cover;
 }
 
-.content_restaurant_mainMenu img {
-    height: 100px;
-    width: 100%;
-    object-fit: cover;
-    margin-top: 20px;
-}
-
-.content_restaurant_extras img {
+.imgCss {
     height: 100px;
     width: 100%;
     object-fit: cover;

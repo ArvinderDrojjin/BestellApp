@@ -107,6 +107,10 @@ function removeFromBasket(index) {
     renderOverlayBasket();
 }
 
+function placeOrder() {
+    
+}
+
 function init() {
     render(myDishes);
     renderExtras(myExtras);

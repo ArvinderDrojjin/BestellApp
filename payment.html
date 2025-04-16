@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bezahl Vorgang</title>
+    <link rel="stylesheet" href="styles.css/payment.css">
+</head>
+<body>
+    <div class="checkout-container">
+        <h2>Bezahlung</h2>
+        <p>Bitte geben Sie Ihre Zahlungsinformationen ein.</p>
+
+        <form class="payment-form">
+            <label for="cardNumber">Kartennummer</label>
+            <input type="text" id="cardNumber" placeholder="1234 5678 9012 3456">
+
+            <label for="cardName">Name auf der Karte</label>
+            <input type="text" id="cardName" placeholder="Max Mustermann">
+
+            <label for="expiry">Gültig bis</label>
+            <input type="text" id="expiry" placeholder="MM/YY">
+
+            <label for="cvv">CVV</label>
+            <input type="text" id="cvv" placeholder="123">
+
+            <button type="submit">Jetzt bezahlen</button>
+        </form>
+    </div>
+</body>
+</html>

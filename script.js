@@ -108,12 +108,14 @@ function removeFromBasket(index) {
 }
 
 function placeOrder() {
-    
+    basketItems = [];
+    updateBasket();
+
+    document.getElementById('basketOverlay').style.display = 'none';
 }
+
 
 function init() {
     render(myDishes);
     renderExtras(myExtras);
 }
-
-init();

@@ -47,7 +47,7 @@ function getBasketTotalTemplate(total) {
         <div class="basket_total">
             <hr>
             <p><strong>Gesamtsumme: ${total.toFixed(2)} €</strong></p>
-            <a href="payment.html" target="_blank">
+            <a href="myOrder.html" target="_blank">
                 <button class="orderButton" onclick="placeOrder()">Bestellen</button>
             </a>
         </div>

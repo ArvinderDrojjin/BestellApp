@@ -89,7 +89,7 @@ h2 {
     padding: 0;
     margin: 0;
     display: flex;
-    gap: 16px; 
+    gap: 16px;
 }
 
 .aboutUs li a {
@@ -100,4 +100,12 @@ h2 {
 
 .aboutUs li a:hover {
     text-decoration: underline;
+}
+
+@media(max-width: 550px) {
+    .footerContent {
+        flex-direction: column;
+        text-align: center;
+        font-size: 7px;
+    }
 }
